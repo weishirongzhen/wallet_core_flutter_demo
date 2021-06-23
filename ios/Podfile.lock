@@ -1,0 +1,37 @@
+PODS:
+  - Flutter (1.0.0)
+  - shared_preferences (0.0.1):
+    - Flutter
+  - SwiftProtobuf (1.17.0)
+  - TrustWalletCore (2.6.9):
+    - TrustWalletCore/Core (= 2.6.9)
+  - TrustWalletCore/Core (2.6.9):
+    - TrustWalletCore/Types
+  - TrustWalletCore/Types (2.6.9):
+    - SwiftProtobuf
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - TrustWalletCore (= 2.6.9)
+
+SPEC REPOS:
+  trunk:
+    - SwiftProtobuf
+    - TrustWalletCore
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  SwiftProtobuf: 9c85136c6ba74b0a1b84279dbf0f6db8efb714e0
+  TrustWalletCore: b7f1b813a881fb6ad1a54bb5b9348f917dbf9afc
+
+PODFILE CHECKSUM: cd994e144f76ee8ca5185fcfc397979da4b7adc1
+
+COCOAPODS: 1.10.1
